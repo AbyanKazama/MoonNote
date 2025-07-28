@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/MoonNote-nobg.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MoonNote</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <!-- <script>
+      document.addEventListener('keydown', function (e) {
+        if (
+          e.key === 'F12' ||
+          (e.ctrlKey && e.shiftKey && ['I', 'J', 'C'].includes(e.key))
+        ) {
+          e.preventDefault()
+          alert('Jangan dibuka-buka, bro 😅')
+        }
+      })
+
+      document.addEventListener('contextmenu', e => e.preventDefault())
+
+      console.warn = function () {}
+      console.error = function () {}
+
+      console.log(
+        '%c[WARNING] Accessing developer tools is monitored.',
+        'color: yellow; font-size: 16px; background: black; padding: 8px;'
+      )
+
+      function detectDevTools() {
+        const threshold = 160
+        const start = new Date()
+        debugger
+        const end = new Date()
+        if (end - start > threshold) {
+          alert('DevTools terdeteksi, sistem melindungi halaman 🛡️')
+          window.location.replace('https://google.com')
+        }
+      }
+
+      setInterval(detectDevTools, 1000)
+    </script> -->
+  </body>
+</html>
