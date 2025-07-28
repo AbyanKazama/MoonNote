@@ -9,6 +9,19 @@ import GallerySection from '../components/GallerySection'
 import BackgroundMusic from '../components/BackgroundMusic'
 import GiftSection from '../components/GiftSection'
 
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/:name" element={<BirthdayTemplate />} />
+        {/* tambahkan default route */}
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </Router>
+  )
+}
+
+
 const BirthdayTemplate = () => {
   const { name } = useParams()
   const data = dataUcapan[name?.toLowerCase()]
