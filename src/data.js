@@ -3,7 +3,7 @@ export const birthdayData = {
     nama: 'Abyan',
     ucapan: 'Selamat ulang tahun Abyan! Tetap semangat dan bersinar.',
     backgroundImage: 'https://res.cloudinary.com/dzca92tcc/image/upload/v1753701508/Stage_hsubfu.jpg',
-    music: '/audio/bg-music.mp3',
+    music: '/audio/bg-abyan.mp3',
     openingText: 'Semoga hari ini jadi awal kisah yang makin indah 🎉',
     openingSubText:
       'dari seseorang yang gak pernah lupa tanggal penting ini 😌',
@@ -34,6 +34,6 @@ Happy Birthday once again 🌙`,
     ],
     title: 'Hadiah buat kamu',
     description: 'Aku ada hadiah spesial buat kamu nih',
-    downloadUrl: '/gifts/bg-music.mp3'
+    downloadUrl: '/gifts/bg-abyan.mp3'
   }
 }
