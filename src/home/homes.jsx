@@ -131,7 +131,7 @@ const ReasonSection = () => {
   return (
     <section
       id='about'
-      className='w-full bg-gray-100 text-gray-800 py-20 px-6 md:px-12'
+      className='w-full bg-gray-100 text-gray-800 py-20 px-6 md:px-20'
     >
       <div className='max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10'>
         <motion.div
@@ -220,12 +220,13 @@ const BenefitSection = () => (
         Benefit yang Kamu Dapatkan
       </motion.h2>
 
-      {/* SHOW SVG ON MOBILE */}
+      {/* SVG untuk Mobile */}
       <motion.div
         className='block md:hidden mb-12 w-full max-w-sm mx-auto'
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
+        whileHover={{ y: -4, transition: { type: 'spring', stiffness: 100 } }}
       >
         <img
           src='/img/note-taking-1-99.svg'
@@ -235,14 +236,18 @@ const BenefitSection = () => (
       </motion.div>
 
       <div className='grid md:grid-cols-2 gap-12 text-left'>
-        {/* LEFT: Paragraf Penjelasan */}
+        {/* LEFT: Card yang berisi semua benefit */}
         <motion.div
-          className='space-y-8 text-gray-800 leading-relaxed text-base md:text-lg md:pl-6'
+          className='bg-gray-800 rounded-2xl shadow-lg p-6 md:p-10 space-y-8 text-[#F5DEB3] leading-relaxed text-base md:text-lg md:pl-6 hover:shadow-xl transition-shadow duration-300'
           initial='hidden'
           whileInView='visible'
           viewport={{ once: true }}
           variants={fadeUp}
           custom={2}
+          whileHover={{
+            y: -4,
+            transition: { type: 'spring', stiffness: 100 }
+          }}
         >
           <p>
             🎁 <strong>Hadiah dengan Cara Baru:</strong> Kini kamu bisa memberi
@@ -271,12 +276,16 @@ const BenefitSection = () => (
           </p>
         </motion.div>
 
-        {/* RIGHT: Illustration for Desktop */}
+        {/* RIGHT: Ilustrasi untuk Desktop */}
         <motion.div
           className='hidden md:block'
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
+          whileHover={{
+            y: -4,
+            transition: { type: 'spring', stiffness: 100 }
+          }}
         >
           <img
             src='/img/note-taking-1-99.svg'
