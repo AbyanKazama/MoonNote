@@ -49,7 +49,7 @@ Happy Birthday once again 🌙`,
     greetingText: `Halo kalian yang udah mokaku, gimana jam tidur nya? berantakan ya? jangan lupa di perbaiki ya abis ini🎉🎉
     
     Moga abis ini kita tetap sehat selalu biar bisa ketemu terus dan silaturahmi selama lamanya yah~✨`,
-    parallaxImage: 'https://res.cloudinary.com/dzca92tcc/image/upload/v1756392318/IMG_2907_azwbxs.heic',
+    parallaxImage: 'https://res.cloudinary.com/dzca92tcc/image/upload/v1756390153/WhatsApp_Image_2025-08-28_at_20.54.36_qktemc.jpg',
     parallaxTitle: '“This is my wish”',
     parallaxText: `Hope we can be friends forever without anything holdin us to be together, our journey hasn't come yet, 
     but i am pretty sure that we are the best prodi lets goooo RPL🌙`,
