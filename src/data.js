@@ -40,7 +40,7 @@ Happy Birthday once again 🌙`,
     nama: 'Coders RPL UPI',
     ucapan: 'Selamat atas mokaku nya yaw, gaskan kita bantai mabim dll, lets see the recap',
     backgroundImage: 'https://res.cloudinary.com/dzca92tcc/image/upload/v1756390153/WhatsApp_Image_2025-08-28_at_20.54.36_qktemc.jpg',
-    music: '/audio/bg-abyan.mp3',
+    music: '/audio/bijiem.mp3',
     openingText: 'Semoga kita jadi angkatan rpl yang erat, jadi...ini hadiah buat kalian yang udah mokaku 🎉',
     openingSubText:
       'dari seorang atmint discord yang gak seberapa ini😌',
