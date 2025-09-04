@@ -66,5 +66,36 @@ Happy Birthday once again 🌙`,
     title: 'Hadiah buat kamuh',
     description: 'Aku ada hadiah spesial',
     downloadUrl: '/gifts/kelas.jpg'
-  }
+  },
+  kay: {
+    nama: 'Atsiila Kaysa Asyraf AKA mY bubup',
+    ucapan: 'Selamat ulang tahun(meskipun ini belum ulang tahun kau)',
+    backgroundImage: 'https://res.cloudinary.com/dzca92tcc/image/upload/v1756966972/boo_3_ck4riz.jpg',
+    music: '/audio/Feelit.mp3',
+    openingText: 'Hope u love this letter, because i am boring and dont know what to do🎉',
+    openingSubText:
+      'Dont hate me though😌',
+    greetingImage: 'https://res.cloudinary.com/dzca92tcc/image/upload/v1756966972/boo_1_ules6u.jpg',
+    greetingTitle: 'A love letter...i guess?🎈',
+    greetingText: `Hi babe, what's going on? hope u doing well today, i just want to say...that i am grateful that i have u, hope we...last long🎉🎉
+    
+    (my heart said that he want u as the last girl for me)✨`,
+    parallaxImage: 'https://res.cloudinary.com/dzca92tcc/image/upload/v1756966972/boo_4_vynkmj.jpg',
+    parallaxTitle: '“This is my wish”',
+    parallaxText: `Babeeee please stay by my side and dont leave, but...if u have a better boy i wont gatekeeping u though, but i hope you are the right and the last girl i had, 
+    please be mine forever wwwwwww🌙`,
+    galleryTitle: '🎞️ Galeri',
+    gallerySubtitle: 'Ur Picts could make me melt awww',
+    galleryPhotos: [
+      'https://res.cloudinary.com/dzca92tcc/image/upload/v1756966971/boo_2_jejogs.jpg',
+      'https://res.cloudinary.com/dzca92tcc/image/upload/v1756966971/boo_6_vrvxr5.jpg',
+      'https://res.cloudinary.com/dzca92tcc/image/upload/v1756966973/boo_5_zmyszv.jpg',
+      'https://res.cloudinary.com/dzca92tcc/image/upload/v1756966972/boo_1_ules6u.jpg',
+      'https://res.cloudinary.com/dzca92tcc/image/upload/v1756966972/boo_4_vynkmj.jpg',
+      'https://res.cloudinary.com/dzca92tcc/image/upload/v1756966972/boo_3_ck4riz.jpg',
+    ],
+    title: 'Hadiah buat kamuh',
+    description: 'Aku ada hadiah spesial',
+    downloadUrl: '/gifts/kelas.jpg'
+  },
 }
